@@ -1,24 +1,26 @@
-# Exploring Content Collaboration Platforms for Developer Blog Writing
+# Exploring Content Collaboration Solutions for Content Production
 
-As a Developer Relations professional, I spend a pretty large amount of my time writing, organizing, and collecting content for publication on our blog to the point where it is necessary to have a solid project management system to keep everything in order.
+As a Developer Relations professional, I spend a pretty large amount of my time writing, organizing, and collecting content for publication to our blog. This is at a degree where it is necessary to have a solid project management system to keep everything in order. Having recently been a student as well, I know first hand how important it is to allow for easy collaboration in drafting content, making edits, suggestions, and sharing simple to make it less of a chore to contribute.
+
+It all broke one day where I was getting fed up with the solution I was working on, thinking to myself, there must be something better. We live in a extremely innovative time of technology, surely there must be a startup that solves my needs. So I went on a hunt to trial and test out a bunch of different content collaboration solutions I found from sources like Google, Quora, AlternativeTo, the DevRel community, and more to see if I could find that perfect solution, and maybe help some other people decide at the same time.
 
 ## The Requirements
 
 ![Dolby.io Blog](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lotydjciqezlyxuuroj6.png)
 
-At Dolby.io we collect content from a multitude of people in multiple different mediums, but at the end of the day we want to keep everything centralized and consistent when possible. Our blog is handled in the backend using [Wordpress](https://wordpress.com/), so when considering options for content management it was critical that it played well enough with Wordpress with little manual modifications needed. Because of this, there were a few "must haves" for the platforms to consider.
+At Dolby.io we collect content from a variety of people in multiple different media, but at the end of the day we want to keep everything centralized and consistent when possible. [Our blog](https://dolby.io/blog/) is handled in the backend using [Wordpress](https://wordpress.com/), so when considering options for content management it was critical that it played well enough with Wordpress, to avoid as much manual intervention as possible. Because of this, there were a few "must haves" for the platforms to consider:
 
 #### 1. Exceptional handling of code blocks and inline code
 
-This is a developer blog after all, so there needs to be proper ways to share code. Ideally this will contain proper syntax highlighting for languages used as well, and has good copy-paste ability.
+This is a developer blog after all, so there needs to be proper ways to share code. Ideally this will contain proper syntax highlighting for languages used, and has good copy-paste ability.
 
 #### 2. Commenting and editing is simple
 
-As this is a collaboration platform, we want the collaboration tools to be robust. Being able to comment on sections of text or the whole document easy to do and follow, with a bonus for tools like "Suggest Edits" for inline changes.
+As this is a collaboration platform, we want the collaboration tools to be robust. Being able to comment on sections of text or the whole document should be easy, with a bonus for tools like "Suggest Edits" for inline changes.
 
 #### 3. Intuitive project management tools
 
-With the scale of posts written over time and the large number of contributors, keeping track of the status and metadata of posts within the same system they are written in is a huge benefit. This helps managers figure out the status and what is missing at a glance, and automatically populates based on the original edit.
+With the scale of posts written over time and the large number of contributors, keeping track of the status and metadata of posts within the same system they are written in is a huge benefit. This helps managers figure out the status of the content, and see what is missing from a glance, and automatically populates based on the original edit.
 
 #### 4. Able to handle multiple users editing at the same time
 
@@ -26,11 +28,11 @@ We don't want collisions to happen if two people are editing at the same time, a
 
 #### 5. Image and other media handling not tied to their servers
 
-As the content will all be copied into Wordpress, we want to ensure media doesn't copy the internal reference instead of the base file. Otherwise it can look fine for people connected to the company network, but not to the public.
+As the content will all be copied into Wordpress, we want to ensure media doesn't copy the internal reference instead of the base file. Otherwise it can look fine for people connected to the company network, but not to the public, which is a tricky thing to troubleshoot when not anticipating it.
 
 #### 6. Cross-platform
 
-We have team members on multiple different platforms who should all be able to contribute. The best solution for this is a web app.
+We have team members on multiple different platforms who should all be able to contribute. The best solution for this is a web app, where it can easily be connected to a SSO solution.
 
 ### Nice to Haves
 
@@ -39,6 +41,7 @@ There are a few other bonus points that can help separate the good from the grea
 - Low price or a free tier that fits our needs
 - Version history management
 - Markdown based editor as either a default or an option alongside a rich-text editor
+- Have a free trial so I can test it without needing to pay
 
 ### Immediate Outs
 
@@ -46,9 +49,9 @@ With these rules, some popular tools were immediately thrown out and will not be
 
 [Google Docs](https://www.google.com/docs/about/), [Office 365](https://www.microsoft.com/en-us/microsoft-365), and [Box Notes](https://www.box.com/notes) all do not have great code block handling, and were taken out of consideration.
 
-Tools like [GitHub](https://github.com/) are enticing for purely technical teams, especially with their [Projects](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards) feature, but we work with a mixture of backgrounds that make these products too high a barrier of entry. The same applies for LaTex collaboration software like [Overleaf](https://www.overleaf.com/).
+Tools like [GitHub](https://github.com/) are enticing for purely technical teams, especially with their [Projects](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards) feature, but we work with a mixture of backgrounds that make these products too high a barrier of entry. This doesn't stop GitHub of being a good part of the workflow for linking code samples and Gists.
 
-Similarly, cloud based Markdown editors such as [HedgeDoc](https://hedgedoc.org/), [StackEdit](https://stackedit.io/), [HackMD](https://hackmd.io/) and [Draft](https://draftin.com/) among others are not great choices for those who don't have Markdown experience, plus are a bit more barebones than desired for project management.
+Similarly, cloud based Markdown editors such as [HedgeDoc](https://hedgedoc.org/), [StackEdit](https://stackedit.io/), [HackMD](https://hackmd.io/) and [Draft](https://draftin.com/) among others are not great choices for those who don't have Markdown experience, plus are a bit more barebones than desired for project management. The same applies for LaTex collaboration software like [Overleaf](https://www.overleaf.com/).
 
 Apps like [Slick](https://slickdocs.com/) are MacOS only, which doesn't work for team members on Windows or other platforms.
 
