@@ -62,25 +62,25 @@ In no particular order, here are the products I tried out, and my thoughts on ho
 ### 1. [Confluence](https://www.atlassian.com/software/confluence)
 ![Confluence Image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/46xziwfyosq0bfuhczzy.png)
 
-Confluence is a tool that a vast majority of people working in tech in the last 15 years are familiar with due to it being a part of the Atlassian ecosystem, in which Jira has been a centerpiece of modern tech workflows. I've used Confluence in every single job I've worked at for this reason, and I tend to have a love/hate relationship with it. It's an extremely powerful tool that allows massive customization of the spaces it has, links very well with itself and Jira, and provides third party extension support for workflows that it doesn't support out of the box.
+Confluence is a tool that a vast majority of people who have worked in tech in the last 15 years are familiar with, due to it being a part of the Atlassian ecosystem, where Jira has been a centerpiece of modern tech workflows. I've used Confluence in every single job I've worked at for this reason, and I tend to have a love/hate relationship with it. It's an extremely powerful tool that allows massive customization of the spaces it has, links very well with itself and Jira, and provides third party extension support for workflows that it doesn't support out of the box.
 
-However, it feels dated with the implementation of a lot of these benefits, where just because the option is there doesn't mean that the option was elegantly implemented. For example, code blocks are supported, but require you specifically use a code block macro that is its own container instead of living with the other in line text. It also uses its own markup syntax, which makes taking existing Markdown that you may already have not as simple as copy-pasting it into the platform. Other small quirks like it needing to host every file you upload to it, having a functional, yet quirky way of dealing with simultaneous edits, and the typical Atlassian sentiments many tech workers know make it a compromise.
+However, it feels dated with the implementation of a lot of these benefits, where just because the option is there doesn't mean that the option was elegantly designed. For example, code blocks are supported, but require you specifically use a code block macro that is its own container instead of living with the other in line text. It also uses its own markup syntax, which makes taking existing Markdown that you may already have not as simple as copy-pasting it into the platform. Other small quirks like it needing to host every file you upload to it, having a functional, yet quirky way of dealing with simultaneous edits, and the typical Atlassian sentiments many tech workers know make it a compromise.
 
-We use Confluence already at Dolby.io, and I imagine many of you reading this are also using this tool already, so the price is already right. The best way to sum up my feelings of Confluence are "if it ain't broke, don't fix it", which fits some team's philosophies more than others.
+We use Confluence already at Dolby.io, and I imagine many of you reading this are also using this tool right now, so the price is already right. The best way to sum up my feelings of Confluence are "if it ain't broke, don't fix it", which fits some team's philosophies better than others, make of that as you will.
 
 ### 2. [Notion](https://www.notion.so/)
 ![Notion Image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ujei124wzqp20thlfqge.png)
 
-Notion is the relative new big hitter coming to the block with a recent surge in users that has slowly started taking up the startup scene. Notion is what I would describe as the Atlassian suite if it was made with modern tech design, and it shows from the visual aesthetic to the technical decisions made in what it supports. Instead of separating the company into multiple products however, it is all grouped in one workspace, where you can link tables, docs, kanban boards, and more together seamlessly and it frankly feels very elegant.
+Notion is the relative new big hitter coming to the block with a recent surge in users that has slowly started taking up the startup scene. Notion is what I would describe as the Atlassian suite if it was made with modern tech design, and it shows from the visual aesthetic to the technical decisions made. However, instead of separating the company into multiple products, it is all grouped in one workspace, where you can link tables, docs, kanban boards, and more together seamlessly and it frankly feels elegant.
 
 Notion uses Markdown as its text processor, though instead of keeping the raw text, it automatically interprets it to make the lives of writers a bit easier, though not as intuitive as a traditional rich-text editor. If text is highlighted, it brings up the command palette, though this isn't the most intuitive behavior for new users. I would say it is similar to Slack's editor, which makes sense due to the high user base.
 
-Overall I was a big fan of Notion, and its growth tends to support my sentiment, as I see more and more companies start using Notion as their main platform for nearly everything. I will note that I have had server issues in the past with Notion with issues like slowness to not being able to access my documents, though I have not experienced it in recent tests of the platform, and can likely attribute this to its growing pains.
+Overall I was a big fan of Notion, and its growth tends to support my sentiment, as I see more and more companies start using Notion as their main platform for nearly everything. There were issues in image copying to Wordpress, but this was unfortunately fairly standard across most platforms. I will note that I have had server issues in the past with Notion with issues like slowness to not being able to access my documents, though I have not experienced it in recent tests of the platform, and can likely attribute this to its growing pains.
 
 ### 3. [Quip](https://quip.com)
 ![Quip Animation](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rrwunx5vx9zwo23khcny.gif)
 
-Quip is Salesforce's option in the content collaboration space with a heavy focus on live discussions, with chat, edits, and its integration with Salesforce being its key marketing points.
+Quip is Salesforce's option in the content collaboration space with a heavy focus on live discussions, with chat, edits, and its integration with Salesforce being its key marketing points. I've used Quip outside of this test in reviewing content from third parties, and found it to be fine, but nothing out of the ordinary in terms of capabilities.
 
 While it was able to do match these claims in experience, overall it really does seem like this is built for sales teams, not content creation, where a lot of the project management assumes heavy Salesforce use, whom I imagine are the target customers for this product.
 
@@ -119,11 +119,10 @@ Whimsical is all about keeping all content in an organized, central place. They 
 
 The benefits of small things like live cursors and linking content within content were useful. It also had the added benefit of working well with Wordpress, where images were not directly copied, but an image upload object was created in its stead, ensuring that you uploaded a proper copy of the image.
 
-
 ### 9. [ClickUp](https://clickup.com/)
 ![ClickUp Animation](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t9t7nuz17kqm6jjwu2a4.gif)
 
-ClickUp have been advertising heavily lately with banners all over San Francisco, and when I tried it there was a lot going for it. ClickUp has spaces dedicated for both "Spaces", or your tables of project management based content, and "Docs", which uses a Markdown based editor and organizes and shares your content.
+ClickUp have been advertising heavily lately, with banners all over San Francisco, and when I tried it there was a lot going for it. ClickUp has spaces dedicated for both "Spaces", or your tables of project management based content, and "Docs", which uses a Markdown based editor and organizes and shares your content.
 
 The spaces section reminded me a lot of Airtable with a bit more stuff going on, letting you expand each entry to see the editing history, to do list, attachments, and all, really solidifying itself as a proper "entry" of work to be done. The docs had useful tools like attributing authors and having ample version history. As a major bonus, content copied itself super well into Wordpress, which is a major time save in not needing to reformat every piece of content posted.
 
@@ -135,7 +134,7 @@ I was close to being satisfied with ClickUp as my "Goldilocks" solution for my i
 
 After my time trialing with all of these platforms (and unsubscribing from all of their mailing lists...), it helped me sort out what exactly was best for me in a content collaboration app, and where my biases landed. Clearly these solutions have their own strengths and weaknesses, and all have a very solid number of customers that use them daily.
 
-If I had to choose my favorite today (October 2021), **Notion** was my overall winner, where if I was starting completely from scratch, Notion filled the majority of my needs and had a good user experience. It was easy to organize, edit, collaborate, and more in a way that facilitated as many automated processes as possible.
+If I had to choose my favorite today (October 2021), **Notion** was my overall winner, where if I was starting completely from scratch, Notion filled the majority of my needs and had a good user experience that I was excited to work in. It was easy to organize, edit, collaborate, and more in a way that facilitated as many automated processes as possible.
 
 However, I am not starting from scratch, and there are tradeoffs to migrating interfaces. So for that reason, we have decided to stick with Confluence, as all of our content is already there, we already pay for it, and it doesn't require our team members to sign up for a new account anywhere. A bit anti-climactic, but none of the solutions we found offered enough more than Confluence to be worth the resource investment to migrate.
 
